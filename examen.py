@@ -14,23 +14,3 @@ stock ={'8475HD': [387990,10],
         '123FHD': [290890,32],
         '342FHD': [444990,7],
         'UWU131HD': [349990,1], }
-
-while True:
-    print('***Menu Principal***')
-    print('====================')
-    print('1. Stock marca.')
-    print('2. Búsqueda por RAM y precio.')
-    print('3. Eliminar producto.')
-    print('4. Salir.')
-    opc=input('Ingrese Opción: ')
-    if opc=='1':
-        stock_marca()
-    elif opc=='2':
-        busqueda_RAM()
-    elif opc=='3':
-        eliminar_producto()
-    elif opc=='4':
-        print('Programa finalizado')
-        break
-    else:
-        print('Debe seleccionar una opción válida!!')
